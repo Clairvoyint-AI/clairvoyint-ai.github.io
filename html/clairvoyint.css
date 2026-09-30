@@ -1,0 +1,110 @@
+/* Brand colors, fonts, and background match https://clairvoyint.ai/. */
+:root {
+  color-scheme: dark;
+  --onyx: #222821;
+  --iris: #5766bc;
+  --iris-dark: #3d497a;
+  --green-light: #d7f7d7;
+  --border: rgb(215 247 215 / 20%);
+  --body-text: rgb(215 247 215 / 85%);
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--onyx);
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; position: relative; isolation: isolate; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url("../assets/clairvoyint-bg.jpg") center / cover no-repeat;
+  pointer-events: none;
+}
+a { color: var(--green-light); text-underline-offset: .2em; }
+a:hover { color: #fff; }
+a:focus-visible { outline: 3px solid var(--green-light); outline-offset: 5px; }
+img { display: block; max-width: 100%; height: auto; }
+figure { margin: 0; }
+.skip-link { position: absolute; left: 1rem; top: -6rem; padding: 1rem; background: var(--onyx); z-index: 10; }
+.skip-link:focus { top: 1rem; }
+
+.site-header {
+  border-block: 1px solid var(--border);
+  background: rgb(34 40 33 / 94%);
+  backdrop-filter: blur(12px);
+}
+.navigation {
+  max-width: 80rem;
+  min-height: 5.25rem;
+  margin-inline: auto;
+  padding: 1rem clamp(1rem, 4vw, 2.5rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand { display: inline-block; flex-shrink: 0; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border-radius: 999px;
+  padding: .5rem 1.25rem;
+  background: var(--iris);
+  color: #fff;
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.75;
+}
+.button:hover { background: var(--iris-dark); }
+
+.article-header {
+  margin: 0 .5rem;
+  padding: clamp(3rem, 7vw, 6rem) 1.5rem;
+  text-align: center;
+  border: 1px solid var(--border);
+  border-top: 0;
+  border-radius: 0 0 2rem 2rem;
+  background: rgb(34 40 33 / 60%);
+}
+.date { margin: 0 0 1.5rem; color: var(--green-light); font-size: .875rem; line-height: 1.75; }
+h1 {
+  max-width: 62rem;
+  margin: 0 auto;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+.article-body { padding: clamp(2rem, 5vw, 4rem) 1.25rem clamp(3rem, 7vw, 6rem); }
+.announcement-image { max-width: 44rem; margin: 0 auto clamp(2.5rem, 5vw, 4rem); }
+.announcement-image img { width: 100%; border-radius: 1.5rem; border: 1px solid var(--border); }
+.prose { max-width: 44rem; margin: 0 auto; color: var(--body-text); font-size: 1.125rem; line-height: 1.85; overflow-wrap: break-word; }
+.prose p { margin: 0 0 1.5rem; }
+.intro { margin-bottom: 2rem; color: #fff; font-family: "Familjen Grotesk", sans-serif; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.35; letter-spacing: -.025em; }
+.intro p { margin-bottom: .75rem; }
+.invitation { margin-top: 2.5rem; padding: clamp(1.25rem, 4vw, 2rem); border: 1px solid var(--border); border-radius: 2rem; background: rgb(34 40 33 / 65%); }
+.invitation > p:first-child { color: #fff; }
+.apply a { font-weight: 500; }
+.prose .agreement { margin-bottom: 0; font-size: .875rem; line-height: 1.75; }
+.screenshots { max-width: 72rem; margin: clamp(3rem, 6vw, 5rem) auto 0; display: grid; gap: 2rem; }
+.screenshots a { display: block; border-radius: 1rem; }
+.screenshots img { width: 100%; border: 1px solid var(--border); border-radius: 1rem; box-shadow: 0 20px 40px rgb(0 0 0 / 20%); }
+.site-footer { max-width: 80rem; margin: 0 auto; padding: 2rem clamp(1.25rem, 4vw, 2.5rem); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--border); color: var(--body-text); font-size: .875rem; line-height: 1.75; }
+.site-footer p { margin: 0; }
+
+@media (max-width: 30rem) {
+  .article-header { padding-inline: 1rem; }
+  .article-body { padding-inline: 1rem; }
+  .announcement-image img, .screenshots img { border-radius: .75rem; }
+  .invitation { border-radius: 1.25rem; }
+}
