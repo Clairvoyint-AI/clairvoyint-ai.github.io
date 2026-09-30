@@ -11,23 +11,36 @@
     <generator>Hand-written</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
-    <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-    <atom:link href="https://clairvoyint-ai.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Sep 2026 11:46:11 GMT</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2026 11:46:11 GMT</pubDate>
+    <atom:link href="https://clairvoyint-ai.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://clairvoyint-ai.github.io/logo.png</url>
       <title>Clairvoyint</title>
       <link>https://clairvoyint-ai.github.io/</link>
     </image>
 
-    <!-- Add <item> entries below, newest first:
     <item>
-      <title>Post title</title>
-      <link>https://clairvoyint-ai.github.io/posts/post-slug/</link>
-      <guid isPermaLink="true">https://clairvoyint-ai.github.io/posts/post-slug/</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Short summary of the post.</description>
+      <title>The Clairvoyint Design Partner Beta Is Open</title>
+      <link>https://app.clairvoyint.ai/beta</link>
+      <guid isPermaLink="false">clairvoyint-geospatial-design-partner-beta-2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 11:46:11 GMT</pubDate>
+      <description><![CDATA[
+        <p><img src="https://clairvoyint-ai.github.io/assets/beta-announcement-geo.png" alt="The Clairvoyint beta is open. Turn your expertise into tailored GeoAI agents that know your workflow and your data." style="max-width: 100%; height: auto;" /></p>
+        <p>You don’t need to stuff your GIS desktop into a chat session.</p>
+        <p>You need to get real geospatial work done.</p>
+        <p>Clairvoyint is GeoAI for geospatial experts.</p>
+        <p>Clairvoyint helps you bring AI into the way your team already solves geospatial problems, using your data, your methodology, your spatial logic, your calculations, and your domain knowledge. It puts your problem at the center, rather than the tooling.</p>
+        <p>You can turn your approach into reusable, tailored agents for recurring questions, apply them across new locations and datasets, and keep the assumptions, evidence, and analytical path visible as the work changes.</p>
+        <p>Source validation, provenance, auditability, and persistent context are built into the platform. So are lower variance between runs, lower token usage, and the ability to choose the model that fits the task. Together, they give you a more disciplined way to use AI and make decisions with confidence.</p>
+        <p>Clairvoyint gives geospatial experts a better way to put AI to work.</p>
+        <p>We’re opening the Clairvoyint Design Partner Beta to geospatial professionals and organizations with real problems to solve.</p>
+        <p>Apply to join: <a href="https://app.clairvoyint.ai/beta">app.clairvoyint.ai/beta</a></p>
+        <p><em>Design Partner Agreement required. Participation includes feedback and collaboration with the Clairvoyint team.</em></p>
+        <p><img src="https://clairvoyint-ai.github.io/assets/stranded-asset-dashboard-map.png" alt="Clairvoyint Stranded Asset Dashboard map showing data centers and candidate infrastructure connections." style="max-width: 100%; height: auto;" /></p>
+        <p><img src="https://clairvoyint-ai.github.io/assets/stranded-asset-dashboard-overview.png" alt="Clairvoyint Stranded Asset Dashboard overview comparing assets, susceptibility, retained paths, and evidence confidence." style="max-width: 100%; height: auto;" /></p>
+        <p><img src="https://clairvoyint-ai.github.io/assets/stranded-asset-dashboard-asset-review.png" alt="Clairvoyint Stranded Asset Dashboard asset review showing structural dimensions and candidate electrical paths." style="max-width: 100%; height: auto;" /></p>
+      ]]></description>
     </item>
-    -->
   </channel>
 </rss>
